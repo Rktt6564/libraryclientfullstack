@@ -1,0 +1,125 @@
+/* src/styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    color: #a71a1b;
+    
+  }
+  
+  nav img {
+    height: 90px; /* Adjust the height as needed */
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 10px; /* Adjust the gap between image and buttons as needed */
+    align-items: center;
+  }
+  
+  .nav-buttons button {
+    padding: 8px 15px;
+    background-color: #ffffff;
+    color: #a71a1b;
+    border: none;
+    cursor: pointer;
+  }
+/* src/styles.css */
+
+/* src/styles.css */
+
+/* src/styles.css */
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+  }
+  
+/* src/styles.css */
+
+.container {
+  background-color: #385728;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  border-top: 2px solid #a16b15;
+  border-bottom: 2px solid #a16b15;
+  margin-top: 127px;
+  padding-left: 0%;
+  width: 100vw; /* Set the width to 100% of the viewport width */
+}
+
+/* ... (your existing styles) */
+
+  
+  .buttons-row button {
+    flex: 1;
+    padding: 15px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  
+  
+  
+  .library-image {
+    width: 100vw; /* Set the width to 100% of viewport width */
+    /* height: auto; */
+  }
+  
+/* src/styles.css */
+
+/* ... (your existing styles) */
+
+/* Additional styles for content display */
+.content-buttons {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: row; /* Adjust the direction to column */
+    padding: 15px 15px;
+    gap: 20px; /* Adjust the gap between buttons as needed */
+  }
+  
+  .content-buttons button {
+    padding: 15px 15px;
+    background-color: transparent;
+    color: #a71a1b;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .centered-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  
+  /* Heading Style */
+  .heading {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #991E20; /* Set the color of the heading */
+    margin-top: 20px; /* Add margin to the top */
+  }
+  

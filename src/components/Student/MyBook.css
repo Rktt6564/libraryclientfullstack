@@ -1,0 +1,30 @@
+.book-container {
+  margin-top: 20px;
+}
+
+.book-card {
+  font-family: Arial, sans-serif;
+}
+
+.book-card h2 {
+  display: flex;
+  align-items: center;
+}
+
+.book-card h2 svg {
+  margin-right: 10px;
+}
+
+.book-card .form-control {
+  width: 100%;
+}
+
+.book-card button {
+  margin-top: 10px;
+}
+
+.book-card table {
+  margin-top: 20px;
+}
+
+/* Additional styles can be added as needed */
